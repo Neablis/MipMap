@@ -1,0 +1,56 @@
+  html {
+	height:100%;
+  }
+ 
+  body {
+	   font: 24px Helvetica;
+	   background: #999999;
+	   height: auto;
+  }
+ 
+  #main {
+	   display:block;
+	   height:100%;
+	   margin: 0px;
+	   padding: 0px;
+   }
+  
+  #main #bottom {
+	   text-align:center;
+	   margin: 4px;
+	   padding-top:5px;
+	   border: 1px solid #cccc33;
+	   border-radius: 7pt;
+	   background: #dddd88;
+   }
+   
+   #main #bottom img {
+		height: auto;
+   }
+  
+  header, footer {
+	   clear:both;
+       line-height: 50px;
+	   display: block;
+	   margin: 4px;
+	   padding: 5px;
+	   padding-top:10px;
+	   height: 90px;
+	   border: 1px solid #eebb55;
+	   border-radius: 7pt;
+	   background: #ffeebb;
+   }
+   
+   header p, footer p {
+	  text-align: center; 
+   }
+   
+   .shadow {
+		-moz-box-shadow: 3px 3px 4px grey;
+		-webkit-box-shadow: 3px 3px 4px grey;
+		box-shadow: 3px 3px 4px grey;
+		/* For IE 8 */
+		-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='grey')";
+		/* For IE 5.5 - 7 */
+		filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='grey');
+	}
